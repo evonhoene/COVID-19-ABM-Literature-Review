@@ -1,7 +1,12 @@
-# Synthetic Population Generation with Public Health Characteristics for Spatial Agent-Based Models
+# All Models Are Wrong, But Can They Be Useful? Lessons from COVID-19 Agent-Based Models (ABMs): A Systematic Review (2020-2023) 
 
-This repository contains the code used for generating a synthetic population with public health surveys for the initialization of agent populations within spatial ABMs, as well as the data used to validate the synthesized vaccination uptake at the census tract level in Virginia for December 2021. The synthetic population is created by integrating spatially aggregated demographic data from the American Community Survey (ACS) with individual-level survey data on COVID-19 vaccine uptake. The method is adaptable to various spatial scales, time periods, and other health applications such as smoking and other protective behaviors.
+This repository contains the dataset from a systematic review of 536 COVID-19 ABM studies published between January 2020 and December 2023. Articles were retrieved from Web of Science, PubMed, and Wiley on January 30, 2024.
 
+Studies were included if they applied ABMs to simulate COVID-19 transmission. Non-COVID-19 models and review papers were excluded. Each study was evaluated against nine criteria of model usefulness, covering transparency and re-use, interdisciplinary collaboration and stakeholder engagement, and evaluation practices.
+
+## Repository Contents  
+- `all_data.csv` → Systematically extracted data from all 536 studies  
+- `available_model_codes.xlsx` → Links to available model codes from the reviewed studies
 
 ## Acknowledgement
 This research was funded by National Science Foundation (Award #2109647 and #230970).
